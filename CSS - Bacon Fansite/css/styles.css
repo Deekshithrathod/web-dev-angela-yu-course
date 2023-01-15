@@ -1,0 +1,19 @@
+#heading {
+  color: aquamarine;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.bacon {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+img:hover {
+  background-color: gold;
+}
