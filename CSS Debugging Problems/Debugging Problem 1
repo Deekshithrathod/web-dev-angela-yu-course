@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Angela's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
     <table cellspacing="20">
       <tr>
-        <td>
-          <img src="fake-human-circle-img.png" alt="angela profile picture" />
-        </td>
+        <td><img src="images/angela.png" alt="angela profile picture" /></td>
         <td>
           <h1>Angela Yu</h1>
           <p>
