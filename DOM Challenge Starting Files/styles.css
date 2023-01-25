@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+}
+
+.huge {
+  font-size: 10rem;
+}
+
+button {
+  background-image: url("./angela.png");
+  height: 100px;
+  width: 100px;
+}
