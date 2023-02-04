@@ -4,14 +4,9 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const MongoStore = require("connect-mongo");
 
-// app.use(session({
-//   secret: 'foo',
-// }));
-
 const dbURL = "mongodb://localhost:27017/tutorialDB";
 const connection = mongoose.createConnection(dbURL);
 const sessionStore = MongoStore.create({
-  // mongooseConnection: connection,
   mongoUrl: dbURL,
   collectionName: "sessionsNew",
 });
@@ -29,7 +24,6 @@ app.use(
   })
 );
 app.get("/", (req, res) => {
-  // console.log(req.session);
   if (req.session.timesVisited) {
     req.session.timesVisited++;
   } else {
