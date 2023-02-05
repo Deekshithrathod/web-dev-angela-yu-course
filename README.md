@@ -1,2 +1,3 @@
 # web-dev-angela-yu-course
-streak
+
+Following the course by Angela Yu. Will Update the repo on a daily basis.
